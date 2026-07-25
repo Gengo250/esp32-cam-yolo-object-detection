@@ -1,0 +1,53 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+
+# IDEs
+.vscode/
+.idea/
+
+# Credenciais e configurações privadas
+firmware/**/secrets.h
+.env
+.env.*
+
+# Modelos de inteligência artificial
+models/*
+!models/README.md
+*.pt
+*.pth
+*.onnx
+*.engine
+*.tflite
+
+# Capturas
+captures/*
+!captures/.gitkeep
+
+# Resultados gerados
+results/*
+!results/.gitkeep
+
+# Resultados automáticos do Ultralytics
+runs/
+
+# Vídeos e arquivos de mídia gerados
+*.avi
+*.mkv
+*.mov
+*.mp4
+
+# Permitir apenas a demonstração oficial
+!docs/assets/demo.mp4
+!docs/assets/demo.gif
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
