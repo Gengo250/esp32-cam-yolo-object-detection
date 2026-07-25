@@ -73,7 +73,6 @@ esp32-cam-yolo-object-detection/
 ├── pc_inference/
 │   └── detect.py
 ├── models/
-│   └── README.md
 ├── captures/
 ├── results/
 ├── docs/
